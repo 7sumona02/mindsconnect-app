@@ -1,4 +1,3 @@
-import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import localFont from 'next/font/local';　　
 
 const f1 = localFont({ src: './Helvetica.ttf' });

@@ -1,0 +1,185 @@
+{
+    "mental_health_blogs": [
+      {
+        "name": "NAMI Blog",
+        "description": "A treasure trove of information on all things related to mental health, providing an exhaustive blog and list of resources for almost everything you may need to better understand mental health [1][3].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "NAMI Blog"
+      },
+      {
+        "name": "Anxiety And Depression Association Of America",
+        "description": "Filled with invaluable advice and insights, evidence-based coping mechanisms and real-time blog responses to world events, this outlet can help bring peace to our mind on an as-needed basis [1].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Anxiety And Depression Association Of America"
+      },
+      {
+        "name": "The Mighty",
+        "description": "A seemingly never-ending resource that provides support to people living with mental health disorders. Content covers more than 6,000 topics and is mostly authored by people who themselves are affected by mental health conditions [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The Mighty"
+      },
+      {
+        "name": "The OCD Stories",
+        "description": "Publishes real stories to educate and inspire those living with OCD. More than a blog, it also offers a podcast, which has been downloaded over 2 million times, for people with OCD, families affected by OCD, and therapists treating those with OCD [2][3].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The OCD Stories"
+      },
+      {
+        "name": "Clear Recovery Center",
+        "description": "Specializes in dual diagnosis mental health and substance abuse treatment. The blog is written by the same people that write their blog and often features interviews with therapists, psychiatrists, and other mental health professionals [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Clear Recovery Center"
+      },
+      {
+        "name": "Depression Warrior",
+        "description": "Hosted by mental health peer, Laura Beker, who has lived with major depressive disorder, generalized anxiety disorder, and borderline personality disorder. Her posts share stories and cite research to help those suffering from mental illnesses [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Depression Warrior"
+      },
+      {
+        "name": "The Anxiety Guy",
+        "description": "Dennis Simsek, pours his passion and commitment to helping people understand the causes of anxiety and effectively cope with related mental health conditions into his blog [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The Anxiety Guy"
+      },
+      {
+        "name": "OCDtalk",
+        "description": "A powerful blog and resource designed by a mother whose son was completely debilitated by severe obsessive-compulsive disorder. OCDtalk advocates for OCD awareness through incredible story-telling and includes information about upcoming events, media features, and her book, Overcoming OCD: A Journey to Recovery [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "OCDtalk"
+      },
+      {
+        "name": "Lighting Up the Sky",
+        "description": "Provides both suicide awareness and prevention resources. Blog content includes personal experiences with suicide, mental illness, and healing [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Lighting Up the Sky"
+      },
+      {
+        "name": "Postpartum Progress",
+        "description": "A much-needed resource for those facing postpartum depression, postpartum anxiety, postpartum psychosis, depression during pregnancy, and more [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Postpartum Progress"
+      },
+      {
+        "name": "Healthy place – Anxiety Shmanxiety",
+        "description": "Addresses the effects of anxiety, panic, flashbacks, worries, and phobias. Each post offers hope, validation, and coping mechanisms to help manage anxiety and related disorders [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Healthy place – Anxiety Shmanxiety"
+      },
+      {
+        "name": "OCD Writer by Carol Edwards",
+        "description": "Provides articles and educational documents centered around OCD and anxiety. Her posts are compassionate, insightful, and well-curated for a comprehensive guide to OCD [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "OCD Writer by Carol Edwards"
+      },
+      {
+        "name": "Clear Recovery Center’s Teen Program",
+        "description": "Has a designated website and blog for its Teen Program. Topics covered in this blog include teenage mental health issues as well as teenage substance abuse issues [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Clear Recovery Center’s Teen Program"
+      },
+      {
+        "name": "Storied Mind",
+        "description": "Blogs are written by John Folk-Williams. His main motive in creating this blog is to share the ideas, stories, and information that have helped him get free of depression and restart his life [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Storied Mind"
+      },
+      {
+        "name": "Anxious Lass",
+        "description": "A personal mental health and lifestyle blog written about the real-life experiences of anxiety by blogger, Kelly Jean [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Anxious Lass"
+      },
+      {
+        "name": "You Have OCD",
+        "description": "A recovery program that specifically focuses and obsessive-compulsive disorder. The blog provides a tremendous amount of information about this mental health condition [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "You Have OCD"
+      },
+      {
+        "name": "Headspace Depression Blog",
+        "description": "Provides a place that highlights blogs related to almost any topic you could think of. They also provide information on meditation and general mental wellness [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Headspace Depression Blog"
+      },
+      {
+        "name": "Your Mental Health Pal",
+        "description": "Breaks down the harmful stigma surrounding mental health concerns by raising awareness and contributing to educational efforts [3].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Your Mental Health Pal"
+      },
+      {
+        "name": "The OCD Diaries",
+        "description": "Originally concerned with defeating depression and addiction, but it has since expanded to cover Everyman’s struggle to survive the darkest moments of life and enjoy more time in the light [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The OCD Diaries"
+      },
+      {
+        "name": "Healthy Place",
+        "description": "The largest consumer mental health site, providing trusted information on mental health disorders and psychiatric medications from both a consumer and expert point of view [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Healthy Place"
+      },
+      {
+        "name": "The Guardian Depression Blog",
+        "description": "The latest news and features on depression from the world’s leading liberal voice [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The Guardian Depression Blog"
+      },
+          {
+        "name": "The Conversation Anxiety",
+        "description": "Browse anxiety-specific news, research, and analysis that allows for open communication regarding mental health issues [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The Conversation Anxiety"
+      },
+      {
+        "name": "MyPTSD",
+        "description": "A Post-Traumatic Stress Disorder / Complex Post Traumatic Stress Disorder community that is comprised of blogs, articles, and a support forum for sufferers and supporters [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "MyPTSD"
+      },
+      {
+        "name": "The Mental Elf",
+        "description": "Ensures to keep you up to date with reliable mental health research, policy, and guidance [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "The Mental Elf"
+      },
+      {
+        "name": "Creatives Against Depression",
+        "description": "Created + run by creatives for creatives. The blog was started to serve as a place where people who are struggling with mental health issues realize they’re not alone [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Creatives Against Depression"
+      },
+      {
+        "name": "Blurt",
+        "description": "Strives to increase awareness and understanding of depression through Twitter chats, story writing, collaborations with communities, and the Blurt Peer Project [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Blurt"
+      },
+      {
+        "name": "A Place of Hope for Depression Blog",
+        "description": "Has been providing comprehensive, professional, and expert, whole-person care for addiction, depression, trauma, and other life challenges since 1984 [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "A Place of Hope for Depression Blog"
+      },
+      {
+        "name": "Anxiety Boss",
+        "description": "The Anxiety Boss blog by psychiatrist, Dr. Carlo Carandang, MD, shares nearly everything readers could possibly need to know about effectively treating anxiety through multiple techniques [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Anxiety Boss"
+      },
+      {
+        "name": "Jenni Shaefer – Trauma and PTSD",
+        "description": "Works to provide an accessible space and safe space to share content from the incredibly knowledgeable perspective of an eating disorder advocate, author, speaker and coach [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Jenni Shaefer – Trauma and PTSD"
+      },
+      {
+        "name": "Depression and Mental Illness Resource Blog",
+        "description": "Aims to help people with depression, anxiety, and other mental health challenges succeed in their basic, everyday tasks and move towards the life they want to live [2].",
+        "imageSrc": "https://openui.fly.dev/openui/300x200.svg",
+        "altText": "Depression and Mental Illness Resource Blog"
+      }
+    ]
+  }
+  

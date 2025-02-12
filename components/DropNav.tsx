@@ -17,7 +17,7 @@ const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
           <UserButton afterSignOutUrl='/' />
           <div className="fixed right-[45%]">
             <Link href='/'
-              className={`text-2xl font-bold text-black ${f2.className}`}
+              className={`text-2xl font-bold text-black md:ml-0 ml-16 ${f2.className}`}
             >
               MindsConnect
             </Link>

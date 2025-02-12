@@ -8,8 +8,8 @@ const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
 const Nav = () => {
   return (
     <div
-      className={`h-full w-screen flex flex-col items-center text-center px-10 ${f1.className}`}>
-      <header className="flex items-center sticky h-20 inset-x-0 top-0 z-30 w-full backdrop-blur-md transition-all">
+        className={`flex items-center sticky h-20 inset-x-0 top-0 z-30 backdrop-blur-md transition-all w-screen flex-col text-center px-10 ${f1.className}`}>
+        <header className="flex items-center sticky h-20 inset-x-0 top-0 z-30 w-full backdrop-blur-md transition-all">
         <h1 className="text-lg text-black mr-auto">Menu</h1> 
         <div className="fixed right-[45%]">
           <Link href='/'
@@ -20,7 +20,7 @@ const Nav = () => {
         </div>
         <SignedIn>
           <div className='flex items-center gap-4 ml-auto'> 
-            <Link href='/resources' className="bg-[#ebffa5] font-medium text-sm text-black px-4 py-2 rounded">
+            <Link href='/resources/blogs' className="bg-[#ebffa5] font-medium text-sm text-black px-4 py-2 rounded">
               Browse Resources
             </Link>
             <UserButton afterSignOutUrl='/' />

@@ -93,38 +93,38 @@ const Landing = () => {
         <nav className="mt-4 md:mt-0 flex flex-col justify-between">
           <ul className="flex flex-col items-start space-y-2">
             <li>
-              <a href="#" className="text-muted-foreground hover:text-muted">
+              <a href="#" className="text-black">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="text-muted-foreground hover:text-muted">
+              <a href="#" className="text-black">
                 Book Session
               </a>
             </li>
             <li>
-              <a href="#" className="text-muted-foreground hover:text-muted">
+              <a href="#" className="text-black">
                 Pricing
               </a>
             </li>
             <li>
-              <a href="#" className="text-muted-foreground hover:text-muted">
+              <a href="#" className="text-black">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="text-muted-foreground hover:text-muted">
+              <a href="#" className="text-black">
                 Journal
               </a>
             </li>
           </ul>
           <p className="text-xs">
           Made by <span className="font-bold">sma</span> |{' '}
-          <a href="#" className="text-muted-foreground hover:text-muted">
+          <a href="#" className="text-black">
             Privacy Policy
           </a>{' '}
           |
-          <a href="#" className="text-muted-foreground hover:text-muted">
+          <a href="#" className="text-black">
             Terms Of Use
           </a>
         </p>
@@ -132,16 +132,16 @@ const Landing = () => {
 
         <div className='flex flex-col justify-between items-end'>
         <div className="flex justify-center space-x-4">
-          <a href="#"  className="text-muted-foreground hover:text-muted">
+          <a href="#"  className="text-black">
             <img src="/logo/twitter.svg" alt="" />
           </a>
-          <a href="#"  className="text-muted-foreground hover:text-muted">
+          <a href="#"  className="text-black">
             <img src="/logo/yt.svg" alt="" />        
           </a>
-          <a href="#"  className="text-muted-foreground hover:text-muted">
+          <a href="#"  className="text-black">
             <img src="/logo/ig.svg" alt="" />        
           </a>
-          <a href="#"  className="text-muted-foreground hover:text-muted">
+          <a href="#"  className="text-black">
             <img src="/logo/spotify.svg" alt="" />        
           </a>
         </div>

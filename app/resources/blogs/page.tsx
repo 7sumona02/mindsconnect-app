@@ -38,7 +38,7 @@ const Page = () => {
           <h2 className="text-3xl font-semibold mb-6">
             Types of <span className={`${f2.className}`}>therapy</span>
           </h2>
-          <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-6 mt-14">
+          <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-8 mt-14">
             {therapies.map((therapy, index) => (
               <div className="overflow-hidden" key={index}>
                 <img
@@ -61,8 +61,8 @@ const Page = () => {
             ))}
           </div>
           <div className="mt-20 text-center absolute bottom-2 right-10">
-            <a href="#" className="px-4 py-2 rounded-lg hover:bg-primary/80">
-              View therapies →
+            <a href="/resources/blogs/more" className="px-4 py-2 rounded-lg hover:underline hover:underline-offset-4">
+              More Blogs →
             </a>
           </div>
         </div>

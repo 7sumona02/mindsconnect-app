@@ -6,7 +6,7 @@ const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
 const Landing = () => {
   return (
     <div
-        className={`h-full w-screen flex flex-col items-center text-center px-10 pb-20 ${f1.className}`}>
+        className={`h-full w-screen flex flex-col items-center text-center px-12 pb-10 ${f1.className}`}>
 
             <main className="flex flex-col items-center">
           <h2 className="text-5xl font-medium mb-4 whitespace-normal text-black max-w-2xl mt-36">
@@ -75,6 +75,82 @@ const Landing = () => {
           </div>
         </div>
 
+        {/* footer */}
+        <footer className="px-10 text-black w-full h-full pt-20">
+      <div className="bg-[#E4D9CEff] rounded-lg p-8 container mx-auto flex flex-col md:flex-row justify-between">
+        <div className='flex flex-col gap-32'>
+            <div className="text-center md:text-left">
+            <h1 className="text-4xl font-bold">Sensa</h1>
+            <p className="text-lg">Guiding you to a better state of mind.</p>
+            </div>
+            <div className="mt-4 md:mt-0 text-left">
+            <p className="text-sm">enquiries@sensa.com</p>
+            <p className="text-sm">De Angeli 58, 20149 Lombardy, Milan</p>
+            </div>
+        </div>
+        
+        <div className='flex gap-40'>
+        <nav className="mt-4 md:mt-0 flex flex-col justify-between">
+          <ul className="flex flex-col items-start space-y-2">
+            <li>
+              <a href="#" className="text-muted-foreground hover:text-muted">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-muted-foreground hover:text-muted">
+                Book Session
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-muted-foreground hover:text-muted">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-muted-foreground hover:text-muted">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-muted-foreground hover:text-muted">
+                Journal
+              </a>
+            </li>
+          </ul>
+          <p className="text-xs">
+          Made by <span className="font-bold">sma</span> |{' '}
+          <a href="#" className="text-muted-foreground hover:text-muted">
+            Privacy Policy
+          </a>{' '}
+          |
+          <a href="#" className="text-muted-foreground hover:text-muted">
+            Terms Of Use
+          </a>
+        </p>
+        </nav>
+
+        <div className='flex flex-col justify-between items-end'>
+        <div className="flex justify-center space-x-4">
+          <a href="#"  className="text-muted-foreground hover:text-muted">
+            <img src="/logo/twitter.svg" alt="" />
+          </a>
+          <a href="#"  className="text-muted-foreground hover:text-muted">
+            <img src="/logo/yt.svg" alt="" />        
+          </a>
+          <a href="#"  className="text-muted-foreground hover:text-muted">
+            <img src="/logo/ig.svg" alt="" />        
+          </a>
+          <a href="#"  className="text-muted-foreground hover:text-muted">
+            <img src="/logo/spotify.svg" alt="" />        
+          </a>
+        </div>
+        <p className="text-xs">©2023 Sensa</p>
+      </div>
+        </div>
+      
+      </div>
+    </footer>
     </div>
   )
 }

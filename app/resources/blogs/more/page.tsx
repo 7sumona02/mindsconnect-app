@@ -1,5 +1,5 @@
+import ActionSearchBar from '@/components/ui/action-search-bar';
 import localFont from 'next/font/local';
-import Image from 'next/image';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
@@ -102,10 +102,11 @@ const Page = () => {
           <h2 className="text-3xl font-semibold mb-6">
             Types of <span className={`${f2.className}`}>therapy</span>
           </h2>
+          <ActionSearchBar />
           <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-8 mt-14">
             {therapies.map((therapy, index) => (
               <div className="overflow-hidden" key={index}>
-                <Image
+                <img
                   src={therapy.imageSrc}
                   alt={therapy.altText}
                   className="w-full h-48 object-cover rounded-lg"

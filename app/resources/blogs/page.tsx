@@ -1,4 +1,5 @@
 import localFont from 'next/font/local';
+import Image from 'next/image';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
@@ -41,7 +42,7 @@ const Page = () => {
           <div className="grid grid-cols-1 text-left md:grid-cols-3 gap-8 mt-14">
             {therapies.map((therapy, index) => (
               <div className="overflow-hidden" key={index}>
-                <img
+                <Image
                   src={therapy.imageSrc}
                   alt={therapy.altText}
                   className="w-full h-48 object-cover rounded-lg"

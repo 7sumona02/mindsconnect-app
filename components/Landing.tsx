@@ -1,4 +1,5 @@
 import localFont from 'next/font/local';　　
+import Image from 'next/image';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
@@ -21,22 +22,22 @@ const Landing = () => {
         </main>
 
         <section className="grid md:grid-cols-4 gap-4 mt-20">
-          <img
+          <Image
             className="rounded-lg"
             src="https://placehold.co/300x200"
             alt="Image 1"
           />
-          <img
+          <Image
             className="rounded-lg"
             src="https://placehold.co/300x200"
             alt="Image 2"
           />
-          <img
+          <Image
             className="rounded-lg"
             src="https://placehold.co/300x200"
             alt="Image 3"
           />
-          <img
+          <Image
             className="rounded-lg"
             src="https://placehold.co/300x200"
             alt="Image 4"
@@ -67,7 +68,7 @@ const Landing = () => {
             </button>
           </div>
           <div className="lg:w-1/2 mt-6 lg:mt-0">
-            <img
+            <Image
               src="https://placehold.co/600x400"
               alt="Hands holding flowers"
               className="rounded-lg"
@@ -133,16 +134,16 @@ const Landing = () => {
         <div className='flex flex-col justify-between items-end'>
         <div className="flex justify-center space-x-4">
           <a href="#"  className="text-black">
-            <img src="/logo/twitter.svg" alt="" />
+            <Image src="/logo/twitter.svg" alt="" />
           </a>
           <a href="#"  className="text-black">
-            <img src="/logo/yt.svg" alt="" />        
+            <Image src="/logo/yt.svg" alt="" />        
           </a>
           <a href="#"  className="text-black">
-            <img src="/logo/ig.svg" alt="" />        
+            <Image src="/logo/ig.svg" alt="" />        
           </a>
           <a href="#"  className="text-black">
-            <img src="/logo/spotify.svg" alt="" />        
+            <Image src="/logo/spotify.svg" alt="" />        
           </a>
         </div>
         <p className="text-xs">©2023 Sensa</p>

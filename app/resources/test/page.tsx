@@ -35,7 +35,7 @@ const Page: React.FC = () => {
             <h3 className="text-2xl font-bold mb-4">Quick Assessment</h3>
             <p className="text-gray-600 mb-6">
               A shorter 20-question quiz designed for a quick snapshot of your
-              mental well-being. Perfect for regular check-ins or if you're short
+              mental well-being. Perfect for regular check-ins or if you&apos;re short
               on time.
             </p>
             <button

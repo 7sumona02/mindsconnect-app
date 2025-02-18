@@ -58,7 +58,7 @@ const Landing = () => {
           <p className="text-left mb-6 whitespace-normal max-w-md">
             MindsConnect collects and analyzes your self-reported symptoms,
             behavioral patterns, and preferences to deliver personalized mental
-            health resources. Whether you're dealing with stress, anxiety, or
+            health resources. Whether you&apos;re dealing with stress, anxiety, or
             depression, our AI-driven platform ensures you get the right support
             at the right time.
           </p>

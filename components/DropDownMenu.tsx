@@ -14,7 +14,7 @@ interface DropdownProps {
   onClose: () => void;
 }
 
-const Dropdown: React.FC<DropdownProps> = ({ isOpen, onClose }) => {
+const Dropdown: React.FC<DropdownProps> = ({ isOpen }) => {
   return (
     <motion.div
       className="absolute top-full right-0 mt-2 w-48 bg-[#E4D9CEff] border border-gray-200 rounded-md origin-top-right overflow-hidden"

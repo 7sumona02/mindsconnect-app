@@ -29,8 +29,8 @@ const Dropdown: React.FC<DropdownProps> = ({ isOpen, onClose }) => {
       <Link href="/resources/podcasts" className="block px-4 py-2 text-sm text-gray-700 font-medium">
         Podcasts
       </Link>
-      <Link href="/resources/tools" className="block px-4 py-2 text-sm text-gray-700 font-medium">
-        Self-help tools
+      <Link href="/resources/test" className="block px-4 py-2 text-sm text-gray-700 font-medium">
+        Test Assessments
       </Link>
     </motion.div>
   );

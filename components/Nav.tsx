@@ -1,16 +1,20 @@
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import localFont from 'next/font/local';
 import Link from 'next/link';
+import { SidebarProvider, SidebarTrigger } from './ui/sidebar';
+import { AppSidebar } from './ui/app-sidebar';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
 
 const Nav = () => {
   return (
+    <SidebarProvider>
+      <AppSidebar />
     <div
         className={`flex items-center sticky h-20 inset-x-0 top-0 z-30 backdrop-blur-md transition-all w-screen flex-col text-center px-10 ${f1.className}`}>
         <header className="flex items-center sticky h-20 inset-x-0 top-0 z-30 w-full backdrop-blur-md transition-all">
-        <h1 className="text-lg text-black mr-auto">Menu</h1> 
+        <h1 className="text-lg text-black mr-auto"><SidebarTrigger /></h1> 
         <div className="fixed right-[45%]">
           <Link href='/'
             className={`text-2xl font-bold text-black ${f2.className}`}
@@ -35,6 +39,7 @@ const Nav = () => {
         </SignedOut>
       </header>
     </div>
+    </SidebarProvider>
   )
 }
 

@@ -1,4 +1,5 @@
 import localFont from 'next/font/local';
+// import ToastSimple from '@/components/Notification'
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
@@ -22,6 +23,7 @@ const Landing = () => {
         <button className="bg-[#ebffa5] font-medium text-sm text-black px-4 py-2 rounded mt-5">
           Get Started
         </button>
+        {/* <ToastSimple /> */}
       </main>
 
       <section className="grid md:grid-cols-4 gap-4 mt-20">

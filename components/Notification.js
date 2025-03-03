@@ -1,19 +1,22 @@
 "use client"
 
-import { useToast } from "@/components/hooks/use-toast"
+import { toast } from "sonner"
+
 import { Button } from "@/components/ui/button"
 
-export function ToastSimple() {
-  const { toast } = useToast()
-
+export default function Notification() {
   return (
     <Button
       variant="outline"
-      onClick={() => {
-        toast({
-          description: "Your message has been sent.",
+      onClick={() =>
+        toast("Event has been created", {
+          description: "Sunday, December 03, 2023 at 9:00 AM",
+          action: {
+            label: "Undo",
+            onClick: () => console.log("Undo"),
+          },
         })
-      }}
+      }
     >
       Show Toast
     </Button>

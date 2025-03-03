@@ -16,22 +16,22 @@ import {
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
-    title: "Inbox",
-    url: "#",
+    title: "Blog",
+    url: "/resources/blogs",
     icon: Inbox,
   },
   {
-    title: "Calendar",
-    url: "#",
+    title: "Podcast",
+    url: "/resources/podcasts",
     icon: Calendar,
   },
   {
-    title: "Search",
-    url: "#",
+    title: "Assessment",
+    url: "/resources/test",
     icon: Search,
   },
   {

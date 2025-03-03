@@ -1,5 +1,4 @@
 import localFont from 'next/font/local';
-import Notification from '@/components/Notification';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });

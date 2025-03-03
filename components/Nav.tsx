@@ -3,15 +3,10 @@ import localFont from 'next/font/local';
 import Link from 'next/link';
 import { SidebarProvider, SidebarTrigger } from './ui/sidebar';
 import { AppSidebar } from './ui/app-sidebar';
-import { motion } from 'framer-motion';
-import { Moon, Sun } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const f1 = localFont({ src: './Helvetica.ttf' });
 const f2 = localFont({ src: './Aujournuit-Regular.woff2' });
-
-const TOGGLE_CLASSES =
-  'text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-10';
 
 const Nav = () => {
   const [selected, setSelected] = useState('light');
